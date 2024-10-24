@@ -89,7 +89,7 @@ Now that you have a working QR decomposition algorithm, lets use it to diagonali
 
 ```cpp
 template <typename T>
-Matrix<T> Diagonalize(const Matrix<T>& A, int n_iter);
+Matrix<T> diagonalize(const Matrix<T>& A, int n_iter);
 ```
 
 This function should take in a square matrix `A` and return its diagonalized form, carrying out the $\mathbf{R}\mathbf{Q}$ iteration `n_iter` times. The goal is to get the off-diagonal entries as small as possible.
