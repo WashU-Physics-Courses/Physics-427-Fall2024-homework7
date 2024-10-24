@@ -106,4 +106,4 @@ $$
 \end{pmatrix}
 $$
 
-Your program should simply call `print()` from the diagonalized matrix, which should print out all the eigenvalues (along with all the off-diagonal entries that are hopefully close to zero). You may need to adjust the number of iterations to get an accurate enough result. Feel free to use other tools to diagonalize this matrix, in order to check whether your result makes sense.
+Your program should simply call `print()` from the diagonalized matrix, which should print out all the eigenvalues (along with all the off-diagonal entries that are hopefully close to zero). You may need to adjust the number of iterations to get an accurate enough result. Feel free to use other tools to diagonalize this matrix, in order to check whether your result makes sense. We expect your eigenvalues are correct to 6 significant digits (the default `cout` precision).
